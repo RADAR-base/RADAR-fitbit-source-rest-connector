@@ -10,6 +10,8 @@
     "rest.source.fitbitdataInterval" : "",
     "rest.source.fitbitStartDate" : "",
     "rest.source.fitbitEndDate" : "",
+    "rest.source.fitbitSecret" : "",
+    "rest.source.fitbitClientId" : "",
     "rest.source.payload.converter.class": "com.tm.kafka.connect.rest.converter.StringPayloadConverter",
     "rest.source.properties": "Content-Type:application/json,Accept::application/json",
     "rest.source.topic.selector": "com.tm.kafka.connect.rest.selector.SimpleTopicSelector",
